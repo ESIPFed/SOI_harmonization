@@ -58,7 +58,7 @@ ISCN3|layer|14c_age (BP)|unit|BP
     - `data_product`: ID for the dataset being described. Free text, should be a unique ID
     - `data_table`: ID for the data table being described. Free text, should be a unique ID. Could be NA, suggesting meta applies to entire product
     - `provided_variable`: variable name from the original dataset, often column header matching `data_column` in `data_meta`
-    - `variable`: common vocabulary that is being mapped to
+    - `variable`: common vocabulary that is being mapped to this should reference some external URI
 
 variable_location|data_product|data_table|provided_variable|variable
 ----------------|------------|------------|-----------------|--------
