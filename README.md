@@ -2,6 +2,19 @@
 
 The data harmonization repository for the ESIP [Soil Ontology and Informatics cluster](https://wiki.esipfed.org/Soil_Ontologies_and_Informatics).
 
+## Roadmap
+
+1) Describe current soil data products for a set of key measurement types (see Issues)
+2) Link measurement names to existing ontologies or extend those ontologies 
+3) Develop a hierarchical understanding of the methodologies (new ontologies/knowedge maps?)
+4) Work up a work flow that combines proposed data descriptions and a generalized script to generate an integrated data product
+
+## Ways to contribute:
+
+1) Identify soil data products for evaluation via https://github.com/ESIPFed/SOI_harmonization/issues/2
+2) Describe how layer location (geolocation, depth, and sampling time) are described in the data product https://github.com/ESIPFed/SOI_harmonization/issues
+3) Attend SOI Cluster meetings
+
 ## Propsed data descriptors
 
 The purpose of these proposed data descriptors are to provide a sufficent description of datasets that will enable a general harmonizaiton script to merge datasets into a common database.
@@ -67,7 +80,3 @@ column_name|ISCN3|layer|14c (‰)|14c
 column_name|ISCN3|layer|14c_sigma (‰)|14c
 
 
-## Ways to contribute:
-
-1) Identify soil data products for evaluation via https://github.com/ESIPFed/SOI_harmonization/issues/2
-2) Describe how layer location (geolocation, depth, and sampling time) are described in the data product https://github.com/ESIPFed/SOI_harmonization/issues/1
